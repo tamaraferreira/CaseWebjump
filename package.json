@@ -1,0 +1,27 @@
+{
+  "name": "casewebjump",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "cypress run --browser chrome --spec 'cypress/e2e/*.cy.js'",
+    "run:headed": "cypress run --headed --browser chrome --spec 'cypress/e2e/*.cy.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamaraferreira/CaseWebjump.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tamaraferreira/CaseWebjump/issues"
+  },
+  "homepage": "https://github.com/tamaraferreira/CaseWebjump#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^10.0.0",
+    "cypress": "^15.2.0"
+  }
+}
